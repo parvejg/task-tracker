@@ -1,0 +1,77 @@
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.main-wrapper .task-tracker {
+  width: 60%;
+  background-color: aquamarine;
+  display: flex;
+  max-height: 400px;
+  flex-wrap: wrap;
+  padding: 1rem 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+.task-tracker .task-input {
+  height: 40px;
+  min-width: 90%;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  padding: 5px;
+  outline: none;
+  border: 1px solid white;
+  font-size: large;
+}
+.add-task-btn {
+  font-size: large;
+  height: 47px;
+  border: none;
+  width: 44px;
+  border-radius: 0.8rem;
+}
+.icon {
+  font-size: x-large;
+  border: none;
+  background-color: white;
+}
+.task-list-wrapper {
+  display: flex;
+  width: 100%;
+  height: 46px;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: start;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+.input-wrapper{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: white;
+   border-radius: 0.6rem;
+}
+p {
+  width: 100%;
+  padding: 1rem 0.3rem;
+  font-size: large;
+  border-radius: 0.5rem;
+}
+.checkbox {
+  width: 20px;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 610px) {
+   .main-wrapper .task-tracker{
+      width: 100%;
+      padding: 1rem 1rem;
+   }
+}

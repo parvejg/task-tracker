@@ -3,6 +3,8 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <title>Task Tracker</title>
 </head>
 <body>
@@ -10,12 +12,25 @@
       <div class="task-tracker">
          <h1>Task Tracker</h1>
          <div class="input-wrapper">
-            <input type="text" placeholder="Start writing and press enter to create task">
-            <button>??</button>
+            <input type="text" class="task-input" placeholder="Start writing and press enter to create task">
+            <button class="add-task-btn"> <i class="icon fa-solid fa-square-arrow-up-right"></i></button>
          </div>
          <div class="task-list-wrapper">
-            <input type="checkbox">
-            <button>++</button>
+            <input type="checkbox" class="checkbox">
+            <p>Problem solving</p>
+            <button><i class="icon fa-solid fa-trash"></i></button>
+         </div>
+
+         <div class="task-list-wrapper">
+            <input type="checkbox" class="checkbox">
+            <p>Largest number in an array</p>
+            <button><i class="icon fa-solid fa-trash"></i></button>
+         </div>
+
+         <div class="task-list-wrapper">
+            <input type="checkbox" class="checkbox">
+            <p>How to find logest word in string</p>
+            <button><i class="icon fa-solid fa-trash"></i></button>
          </div>
       </div>
    </div>
